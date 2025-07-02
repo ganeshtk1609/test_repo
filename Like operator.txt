@@ -1,0 +1,33 @@
+select * from employee;
+select * from employee where empname like 'a%' 
+select * from employee where empname like '%a%' 
+select * from employee where empname like '%A%' 
+
+select * from employee where empname like '%A%' 
+
+LIKE operator
+select * from employee where empname like '____' 
+
+DELETE FROM employee
+commit
+select * from employee
+INSERT INTO employee (empno,empname,salary,designation)
+VALUES(105,'Threesha',7000,'Dev')
+commit
+select * from employee where empname like '%a'
+select * from employee where empname like '%e%'
+select * from employee where empname like '____'
+select * from employee where empname like '_a%'
+select * from employee where empname like '_a'
+select * from employee where empname like '__y%' 
+select * from employee where empname like '%s_' 
+select * from employee where empname like 'A%y' 
+select * from employee where empname like '_a%h' 
+select * from employee where empname like '%a' AND designation IN ('HR','Tester')
+select * from employee where empname like '%a' AND designation ='HR' OR designation ='Tester'
+select * from employee where empname like '%a' OR designation ='HR' OR designation ='Tester'
+select * from employee where empname not like '%a'
+
+INSERT INTO employee (empno,empname,salary,designation)
+VALUES(106,'peter',7000,'peter')
+select * from employee where salary like concat(empno '%')
