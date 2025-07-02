@@ -1,0 +1,5 @@
+Rollup operator
+cube operator
+distinct keyword
+case expression
+decode function
