@@ -1,0 +1,38 @@
+select max(salary),city from employee_dtls group by city
+
+select sum(salary),city from employee_dtls group by city
+
+select avg(salary) as average ,city from employee_dtls group by city
+
+select min(salary) as Minimum ,city from employee_dtls group by city
+
+select max(salary) as Maximum ,city from employee_dtls group by city
+
+select count(empname) as count ,city from employee_dtls group by city
+
+select sum(salary) as SUM, designation from employee_dtls group by designation
+
+select max(salary) as MAX, dept_id from employee_dtls group by dept_id
+
+select count(empname) as count ,designation from employee_dtls group by designation
+
+select count(*) as emp_count from employee_dtls where city='Pune'
+
+select count(*) as emp_count,city from employee_dtls where salary>1000 group by city
+
+select min(salary) from employee_dtls where city='Pune'
+
+select avg(salary) from employee_dtls where city='Pune'
+
+select count(empname) from employee_dtls where city='Mumbai'
+
+select dept_id,max(salary) from employee_dtls group by dept_id
+ 
+select designation,city,count(*) from employee_dtls where city='Nashik' group by designation,city
+ 
+select count(distinct city) as city_cnt from employee_dtls
+
+select count(distinct designation) as des_cnt from employee_dtls
+
+select count(distinct dept_id) as dept_cnt from employee_dtls
+
