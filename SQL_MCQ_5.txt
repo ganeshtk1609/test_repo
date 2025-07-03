@@ -1,0 +1,167 @@
+1. What does the function UPPER('oracle') return?
+A. oracle
+B. Oracle
+C. ORACLE
+D. upper
+-----------------------
+2. What is the output of SUBSTR('Oracle', 2, 3)?
+A. Ora
+B. rac
+C. acl
+D. rcl
+-----------------------
+3. Which function returns the number of characters in a string?
+A. LENGTH
+B. SIZE
+C. COUNT
+D. WIDTH
+-----------------------
+4. What does INSTR('Oracle SQL', 'SQL') return?
+A. 0
+B. 1
+C. 8
+D. -1
+-----------------------
+5. What is the result of TRIM(' Hello ')?
+A. ' Hello '
+B. 'Hello'
+C. ' Hello'
+D. 'Hello '
+-----------------------
+6. Which function replaces all occurrences of a substring with another substring?
+A. TRANSLATE
+B. INSTR
+C. REPLACE
+D. SHIFT
+-----------------------
+7. What will CONCAT('Hello', 'World') return?
+A. Hello World
+B. HelloWorld
+C. Hello+World
+D. Error
+-----------------------
+8. What does INITCAP('oracle sql') return?
+A. oracle sql
+B. Oracle sql
+C. Oracle Sql
+D. ORACLE SQL
+-----------------------
+9. Which function returns the ASCII value of a character?
+A. ASCII()
+B. CHAR()
+C. CODE()
+D. ORD()
+-----------------------
+10. What is the output of TRANSLATE('123-456', '123-', 'abc')?
+A. 123-456
+B. abc-456
+C. abc456
+D. abc
+-----------------------
+11. What is the result of LENGTH(' ') (a single space character)?
+A. 0
+B. 1
+C. NULL
+D. Error
+-----------------------
+12. What does LTRIM('000123', '0') return?
+A. 000123
+B. 123
+C. 00123
+D. 0123
+-----------------------
+13. What will be the output of RPAD('Hi', 5, '*')?
+A. Hi*
+B. Hi**
+C. Hi***
+D. Hi****
+-----------------------
+14. What is the result of CHR(65)?
+A. A
+B. 65
+C. ASCII
+D. Error
+-----------------------
+15. Which function is used to convert a string to all lowercase characters?
+A. LOWER
+B. DOWNCASE
+C. TOLOWER
+D. LOWERCASE
+-----------------------
+16. What is the result of REPLACE('bananas', 'a', '@')?
+A. b@n@n@s
+B. bananas
+C. b@na@na@s
+D. Error
+-----------------------
+17. Which function can replace each character based on position from one set to another?
+A. REPLACE
+B. SUBSTR
+C. TRANSLATE
+D. CONVERT
+-----------------------
+18. Which of the following functions can be used to remove trailing characters?
+A. TRIM
+B. LTRIM
+C. RTRIM
+D. REMOVE
+-----------------------
+19. What will SUBSTR('Database', -3, 2) return?
+A. ba
+B. se
+C. as
+D. Error
+-----------------------
+20. Which of the following will convert 'oracle 12c' to 'Oracle 12c'?
+A. UPPER
+B. INITCAP
+C. CAPITALIZE
+D. TITLECASE
+
+1. C
+2. B
+3. A
+4. C
+5. B
+6. C
+7. B
+8. C
+9. A
+10.
+11.B
+12.B
+13.C
+14.A
+15.A
+16.A
+17.
+18.C
+19.C
+20.A
+
+select upper('oracle') from dual;
+
+select substr('Oracle',2,3) from dual;
+
+select length('Oracle') from dual;
+
+select instr('Oracle SQL','SQL') from dual;
+
+select trim(' Hello ') from dual;
+
+select TRANSLATE('123-456', '123-', 'abc') from dual;
+
+select concat('Hello','World') from dual;
+
+select initcap('oracle sql') from dual;
+
+select length(' ') from dual;
+
+select ltrim('000123',0) from dual;
+
+select rpad('Hi',5,'*') from dual;
+
+select chr(65) from dual;
+
+select substr('Database',-3,2) from dual;
+
