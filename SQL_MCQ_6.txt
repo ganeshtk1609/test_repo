@@ -1,0 +1,102 @@
+1. What does ABS(-10) return?
+A. -10
+B. 10
+C. 0
+D. NULL
+-------------------------------
+2. What is the result of CEIL(4.3)?
+A. 4
+B. 4.3
+C. 5
+D. 3
+-------------------------------
+3. What is the difference between ROUND(123.456, 2) and TRUNC(123.456, 2)?
+A. They are always equal
+B. ROUND gives 123.45, TRUNC gives 123.46
+C. ROUND gives 123.46, TRUNC gives 123.45
+D. Both remove decimals
+-------------------------------
+4. What is the output of MOD(17, 5)?
+A. 3
+B. 2
+C. 1
+D. 4
+-------------------------------
+5. What is the result of FLOOR(7.9)?
+A. 8
+B. 7
+C. 6
+D. 7.9
+-------------------------------
+6. What is the result of POWER(2, 4)?
+A. 6
+B. 16
+C. 8
+D. 24
+-------------------------------
+7. What does SQRT(49) return?
+A. 7
+B. 14
+C. 24.5
+D. Error
+-------------------------------
+8. Which function will return the highest value among 10, 45, 30?
+A. MAX()
+B. HIGHEST()
+C. GREATEST()
+D. TOP()
+-------------------------------
+9. What is the output of TRUNC(123.987)?
+A. 124
+B. 123.98
+C. 123
+D. 123.9
+-------------------------------
+10. What does ROUND(567.895, 2) return?
+A. 567.89
+B. 567.90
+C. 567.80
+D. 567.00
+------------------------------
+11. What is the result of CEIL(-4.3)?
+A. -5
+B. -4
+C. 4
+D. 5
+------------------------------
+12. What will FLOOR(-2.8) return?
+A. -2
+B. -3
+C. 2
+D. 3
+------------------------------
+13. Which function will raise a number to a power?
+A. EXP()
+B. POWER()
+C. RAISE()
+D. SQUARE()
+------------------------------
+14. What is the output of MOD(9, 3)?
+A. 3
+B. 1
+C. 0
+D. Error
+------------------------------
+15. Which function returns the smallest value from a list?
+A. LOWEST()
+B. SMALLEST()
+C. LEAST()
+D. MINVAL()
+------------------------------
+16. Which function returns the square root of a number?
+A. ROOT()
+B. POWER()
+C. SQRT()
+D. LOG()
+------------------------------
+17. What is the output of ROUND(135.666, 0)?
+A. 135
+B. 136
+C. 135.7
+D. 130
+------------------------------END------------------------------
